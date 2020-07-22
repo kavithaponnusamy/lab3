@@ -35,7 +35,7 @@ public class OddOrEven {
 			str = scnr.next();
 					
 		} while (str.equalsIgnoreCase("y"));
-		System.out.println("Thanks for using the application "+name);
+		System.out.println("Thanks for using the application, "+name+"!");
 		scnr.close();
 	}
 }
