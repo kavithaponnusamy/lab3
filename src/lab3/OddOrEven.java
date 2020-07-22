@@ -14,7 +14,7 @@ public class OddOrEven {
 		do {
 			System.out.println("Enter the number between 1 and 100");
 			number = scnr.nextInt();
-			if(number>=1) {
+			if(number>=1 && number<=100) {
 			if (number % 2 == 1) {
 				if(number>60) {
 					System.out.println("Entered number is " + number + ", odd and greater than 60");
